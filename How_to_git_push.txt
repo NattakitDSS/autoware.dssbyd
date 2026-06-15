@@ -1,0 +1,27 @@
+Option 1: SSH Key (Recommended — easiest long-term)
+------------------------------------------------------------------------------
+Step 1: Generate an SSH key
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# Press Enter to accept default location (~/.ssh/id_ed25519)
+# Optionally set a passphrase
+------------------------------------------------------------------------------
+Step 2: Copy your public key
+
+$ cat ~/.ssh/id_ed25519.pub
+Copy the entire output.
+------------------------------------------------------------------------------
+Step 3: Add it to GitHub
+
+Go to GitHub → Settings → SSH and GPG keys
+Click "New SSH key"
+Paste your key and save
+------------------------------------------------------------------------------
+Step 4: Change your remote URL to SSH
+
+$ git remote set-url origin git@github.com:NattakitDSS/autoware.dssbyd.git
+** url need to be changed according to package modified by user. [autoware.dssbyd.git , dssbyd_sensor_kit_launch.git , autoware_launch.dssbyd.git , dssbyd_individual_params.git , dssbyd_launch.git]
+------------------------------------------------------------------------------
+Step 5: Push again
+
+$ git push origin main
