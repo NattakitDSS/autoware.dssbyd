@@ -144,6 +144,25 @@ repositories:
     type: git
     url: https://github.com/tier4/sync_tooling_msgs.git
     version: v0.2.10
+    
+  sensor_component/external/bluespace_ai_xsens_ros_mti_driver:
+    type: git
+    url: https://github.com/NattakitDSS/bluespace_ai_xsens_ros_mti_driver.git
+    version: ros2_0_galactic
+  sensor_component/external/kvaser_interface:
+    type: git
+    url: https://github.com/NattakitDSS/kvaser_interface.git
+    version: ros2_master
+  sensor_component/external/ntrip_client:
+    type: git
+    url: https://github.com/NattakitDSS/ntrip_client.git
+    version: ros2
+  sensor_component/external/velodyne:
+    type: git
+    url: https://github.com/NattakitDSS/velodyne.git
+    version: ros2
+    
+    
   # Fork of transport_drivers that enables reduction of copy operations
   sensor_component/transport_drivers:
     type: git
