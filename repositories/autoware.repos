@@ -173,3 +173,36 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/ros2_socketcan
     version: e39a814180b03f00a5692b6951a5d4e9f0463486
+  # Vehicle Interface  
+  vehicle/external/can_interface:
+    type: git
+    url: gensurv-git:/home/git/gensurv/can_interface.git
+    version: gensurv/main
+  vehicle/external/golfcart_driver:
+    type: git
+    url: gensurv-git:/home/git/gensurv/golfcart_driver.git
+    version: gensurv/main
+  vehicle/external/golfcart_interface:
+    type: git
+    url: gensurv-git:/home/git/gensurv/golfcart_interface.git
+    version: gensurv/main
+  vehicle/external/golfcart_msgs:
+    type: git
+    url: gensurv-git:/home/git/gensurv/golfcart_msgs.git
+    version: gensurv/main
+  vehicle/external/pacmod_interface:
+    type: git
+    url: gensurv-git:/home/git/tier4/pacmod_interface.git
+    version: gensurv/main
+  vehicle/external/paravan_driver:
+    type: git
+    url: gensurv-git:/home/git/gensurv/paravan_driver.git
+    version: gensurv/main
+  vehicle/external/paravan_interface:
+    type: git
+    url: gensurv-git:/home/git/gensurv/paravan_interface.git
+    version: gensurv/main
+  vehicle/external/paravan_msgs:
+    type: git
+    url: gensurv-git:/home/git/gensurv/paravan_msgs.git
+    version: gensurv/main
